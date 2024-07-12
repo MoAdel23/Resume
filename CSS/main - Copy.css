@@ -53,7 +53,6 @@ a {
 
 /* Start Header */
 
-
 .header {
 	padding: 20px;
 }
@@ -224,6 +223,11 @@ a {
 hr {
 	border: 1px solid;
 }
+
+.hrs {
+	border: 1px dashed #dbd6d6;
+	margin: 0;
+}
 /* End CV Global Rules */
 
 /* Start Profile */
@@ -268,8 +272,8 @@ hr {
 }
 .skills ul {
 	display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 10px;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 10px;
 }
 /* End Project */
 
